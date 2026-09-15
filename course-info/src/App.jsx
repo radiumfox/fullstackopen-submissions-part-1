@@ -16,11 +16,9 @@ const App = () => {
       <Header title={course} />
 
       <Content
-        items={[
-          { id: '1', title: part1, count: exercises1 },
-          { id: '2', title: part2, count: exercises2 },
-          { id: '3', title: part3, count: exercises3 }
-        ]}
+        item1={ {title: part1, count: exercises1} }
+        item2={ {title: part2, count: exercises2} }
+        item3={ {title: part3, count: exercises3} }
       />
       
       <Total count={exercises1 + exercises2 + exercises3} />
