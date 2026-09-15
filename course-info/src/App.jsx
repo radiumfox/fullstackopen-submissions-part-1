@@ -17,9 +17,9 @@ const App = () => {
 
       <Content
         items={[
-          { title: part1, count: exercises1 },
-          { title: part2, count: exercises2 },
-          { title: part3, count: exercises3 }
+          { id: '1', title: part1, count: exercises1 },
+          { id: '2', title: part2, count: exercises2 },
+          { id: '3', title: part3, count: exercises3 }
         ]}
       />
       
