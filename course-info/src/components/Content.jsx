@@ -5,9 +5,9 @@ const Part = (props) => {
 export const Content = (props) => {
     return (
         <>
-            <Part title={props.item1.title} count={props.item1.count} />
-            <Part title={props.item2.title} count={props.item2.count} />
-            <Part title={props.item3.title} count={props.item3.count} />
+            <Part title={props.item1.name} count={props.item1.exercises} />
+            <Part title={props.item2.name} count={props.item2.exercises} />
+            <Part title={props.item3.name} count={props.item3.exercises} />
         </>
     )
 }
